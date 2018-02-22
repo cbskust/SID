@@ -1,4 +1,6 @@
 # SID
-MCMC for transmission parameters for diarrhea disease using SID model
+MCMC algorithm for fitting transmission parameters in SID Diarrhea model 
 
-We have 2 R codes. MCMC_V1.R is model including additioal parameters of water contabmintion. MCMC_V0.R is model for absence of the water contamination. mvtnorm Package should be installed.
+There are two R scripts. MCMC_V1.R fits the model with water contabmintion. MCMC_V0.R fits the model without water contamination. mvtnorm Package should be installed.
+
+Based on the paper "Modeling Household Transmission Dynamics: Application to Diarrheal Disease in Central Africa" by Woroszylo et al. (2018). 
